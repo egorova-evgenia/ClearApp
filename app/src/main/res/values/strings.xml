@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="nmedia">NMedia!</string>
+    <string name="popst_menu_remove">Remove</string>
+    <string name="write_your_text_input">Write your text</string>
+    <string name="empty_post">Post is empty</string>
+    <string name="popst_menu_edit">Edit</string>
+    <string name="edit_mode">Edit mode</string>
+    <string name="like_description">like</string>
+    <string name="share_description">share</string>
+    <string name="viewed_description">viewed</string>
+    <string name="menu_description">menu</string>
+    <string name="create_new_post_description">add new post</string>
+    <string name="save">save</string>
+
+</resources>

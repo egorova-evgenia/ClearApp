@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = "1.8.21"
+    ext.hilt_version = "2.46"
+    ext.android_gradle_version = "8.0.0"
+}
+
+//apply plugin: 'com.android.application'
+//apply plugin: 'kotlin-android'
+//apply plugin: 'kotlin-kapt'
+//apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'dagger.hilt.android.plugin'
+
+plugins {
+    id 'com.android.application' version '8.0.1' 
+    id 'com.android.library' version '8.0.1'
+    id 'org.jetbrains.kotlin.android' version '1.8.20'
+}
+
+subprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
